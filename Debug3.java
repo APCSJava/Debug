@@ -9,12 +9,12 @@
 * Use the debugger to determine whether the code works as intended
 */
 
-public class Debug1 {
+public class Debug3 {
 
    private String name;
   
-   public Debug1(String s) {
-      String name = s;
+   public Debug3(String name) {
+      this.name = name;
    }
     
    public void capitalize() {
@@ -24,7 +24,7 @@ public class Debug1 {
    }
     
    public static void main(String[] args) {
-      Debug1 instance = new Debug1("harvey");
+      Debug3 instance = new Debug3("sally");
       instance.capitalize();
    }
 
